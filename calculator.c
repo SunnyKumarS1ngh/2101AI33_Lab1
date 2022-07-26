@@ -36,6 +36,8 @@ int main()
         res = num1 / num2;
         printf("%d/%d = %d", num1, num2, res);
         break;
+    default:
+        printf("wrong input provided");
     }
 
     return 0;
