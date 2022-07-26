@@ -22,19 +22,9 @@ int main()
     {
     case 1:
         res = num1 + num2;
+        printf("%d+%d = %d", num1, num2, res);
         break;
-    case 2:
-        res = num1 - num2;
-        break;
-    case 3:
-        res = num1 * num2;
-        break;
-    case 4:
-        res = num1 / num2;
-        break;
-    default:
-        res = printf("dkfj");
     }
-    printf("The result of operation is : %d", res);
+
     return 0;
 }
