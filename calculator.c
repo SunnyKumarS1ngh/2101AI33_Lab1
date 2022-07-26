@@ -28,6 +28,10 @@ int main()
         res = num1 - num2;
         printf("%d-%d = %d", num1, num2, res);
         break;
+    case 3:
+        res = num1 * num2;
+        printf("%d*%d = %d", num1, num2, res);
+        break;
     }
 
     return 0;
