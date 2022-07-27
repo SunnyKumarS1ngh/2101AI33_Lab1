@@ -122,9 +122,9 @@ void quickSort(int a[],int s,int e){
 }
 
 int main(){
-  int arr[5] = {5,2,4,12,9};
-  quickSort(arr,0,4);
-  for(int i=0;i<5;i++){
+  int arr[10] = {5,2,4,12,9,100,98,23,57,74};
+  quickSort(arr,0,9);
+  for(int i=0;i<10;i++){
     printf("%d,",arr[i]);
   }
 
