@@ -38,9 +38,24 @@ void selectionSort(int arr[], int n)
     }
 }
 
+//bubble sort
+
+void bubblesort(int a[],int n){
+
+    for(int count=1;count<=n-1;count++){
+
+        for(int j=0;j<=n-2;j++){
+
+            if(a[j] > a[j+1]){
+                swap(&a[j],&a[j+1]);
+            }
+        }
+    }
+}
+
 int main(){
   int arr[5] = {5,2,4,9,12};
-  selectionSort(arr,5);
+  bubblesort(arr,5);
   for(int i=0;i<5;i++){
     printf("%d,",arr[i]);
   }
